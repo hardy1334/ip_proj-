@@ -1,33 +1,34 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
-
-
+import imgnav from '/home/hardik/ip_proj/src/images/4372-128_128.jpeg';
+import '/home/hardik/ip_proj/src/style/navsty.css';
 
 class FOOTER extends React.Component{
 
 
     render(){
          let back_col={
-              backgroundColor:'red',
+              backgroundColor:'#D80000',
+              height:340,
+              marginTop: 100,
+              color:'#fff',
               
          }
          let shift_foot={
-          
-            marginTop: 320,
              paddingTop: 20,
              paddingBottom: 50,
+             position:'relative',
+             marginLeft: 100,
             }
-            let chang_clr={
-                color:'#fff',
-            }
+          
         return(
             <div style={back_col}>
               <footer style={shift_foot}>
               <div className="footer-address ">
               <div className="footer-address-left">
-                  <h3>Chitkara University (Punjab)</h3>
-                  <h5 >Chandigarh-Patiala National Highway <br/>
-                  Punjab 140 401</h5>
+                  <h1 className="headin">Chitkara University (Punjab)</h1>
+                  <h3 >Chandigarh-Patiala National Highway <br/>
+                  Punjab 140 401</h3>
               </div>
               <div className="footer-address-left">
                   <h3>Chandigarh information centre</h3>
@@ -37,7 +38,8 @@ class FOOTER extends React.Component{
           </div>
             <p>For any queries ,<a href="http://chitkara.edu.in">Click here </a></p>
               </footer>
-           </div>
+              <img src={imgnav} style={{marginLeft:1050,marginTop:-380,width:200,height:200}}/>
+              </div>
         );
     }
 }

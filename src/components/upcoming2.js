@@ -19,7 +19,7 @@ class UPCOMING2 extends React.Component{
        onshow_maps=()=>{
         console.log("carry this ");
           this.setState({
-              isMapActive:true,
+            isMapActive:!this.state.isMapActive
              
           });
           
@@ -27,11 +27,14 @@ class UPCOMING2 extends React.Component{
 
        disp_maps=()=>{
            this.setState({
-               isHidden:false
+               isHidden:!this.state.isHidden
            })
            console.log("disp_maps called")
        }
-
+        comb_func=()=>{
+            this.disp_maps();
+            this.onshow_maps();
+        }
     render(){
        
          const styl1={
@@ -92,7 +95,7 @@ class UPCOMING2 extends React.Component{
                <h5 className="card-title" style={{fontSize:15,paddingLeft:35,marginTop:-25}}>Chitkara University</h5>
                <p className="card-text text-muted" style={{fontSize:13}}>Chitkara University,Chandigarh-Patiala Highway,Punjab
                </p>
-               <button onClick={this.onshow_maps}   onMouseOver= {this.disp_maps}  style={{float:'right',marginTop:-50}}><small>Show Map</small> </button>
+               <button onClick={this.comb_func}   style={{float:'right',marginTop:-50}}><small>{this.state.isHidden?'Show Map':'Hide Map'}</small> </button>
               
               </div>
            </div>

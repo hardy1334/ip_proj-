@@ -10,6 +10,7 @@ import Clubs from './components/clubs';
 import Socities from './components/socities';
 import FirstCarousel from './components/carousel_home';     
 
+
  class App extends React.Component{
   render(){
    let resize_logo={
@@ -22,11 +23,11 @@ import FirstCarousel from './components/carousel_home';
 let firstNav={
     backgroundColor:'#E80000'
 }
-    
-    
+
+
   return(
     <div>
-    
+      
     </div>
     );
   }
@@ -35,6 +36,7 @@ let firstNav={
 ReactDOM.render(
  <BrowserRouter>
     <div>
+   
        <Route  path="/" component={NavbarMain}></Route>  
        <Route  path="/events" component={Events}></Route>
        <Route path="/clubs" component={Clubs}></Route>

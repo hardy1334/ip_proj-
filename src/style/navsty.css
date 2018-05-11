@@ -1,0 +1,46 @@
+li:hover{
+  background-color: white;
+  color: violet
+}
+.mio:hover{
+    font-size: 20px;
+    font-family: fantasy
+}
+.ok:hover{
+    height:40px
+}
+
+
+
+/*========================   FOOTER.js ===================================*/
+
+.headin{
+    color:whitesmoke;
+    font-family: sans-serif
+}
+
+
+
+
+/*=======================   clubs.js    =======================================*/
+
+
+.shad{
+    box-shadow: 10px 10px #E8E8E8;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+  }
+
+/*============================ Navbar    =======================================*/
+
+
+.omi{
+    color: #00FF33;
+}
