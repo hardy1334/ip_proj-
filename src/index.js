@@ -4,7 +4,7 @@ import './index.css';
 //import "./node_modules/video-react/dist/video-react.css";
 import NavbarMain from './components/main_navbar';
 //import { Player } from 'video-react';
-import {BrowserRouter,Route} from 'react-router-dom';
+import {BrowserRouter,Route,Switch,Redirect} from 'react-router-dom';
 import Events from './components/events';
 import Clubs from './components/clubs';
 import Socities from './components/socities';
@@ -36,11 +36,16 @@ let firstNav={
 ReactDOM.render(
  <BrowserRouter>
     <div>
-   
-       <Route  path="/" component={NavbarMain}></Route>  
-       <Route  path="/events" component={Events}></Route>
-       <Route path="/clubs" component={Clubs}></Route>
-       <Route path="/socities" component={Socities}></Route>
+     <switch>
+       <Route  path="/" render={props=> <div>
+         <NavbarMain/>
+         <Redirect to="/events"/>
+         </div>
+         } />
+       <Route exact path="/events" component={Events}/>
+       <Route path="/clubs" component={Clubs}/>
+       <Route path="/socities" component={Socities}/>
+      </switch> 
     </div>
  </BrowserRouter>
   , document.getElementById('root'));
