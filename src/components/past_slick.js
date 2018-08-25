@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import Slider from "react-slick";
+import Slider from 'react-slick';
 import ReactDOM, {render} from 'react-dom';
 import one from '/home/hardik/ip_proj/src/images/3.jpg';
 import two from '/home/hardik/ip_proj/src/images/2.jpg';
@@ -10,6 +10,7 @@ import six from '/home/hardik/ip_proj/src/images/6.jpg';
 import seven from '/home/hardik/ip_proj/src/images/10.jpg';
 import eight from '/home/hardik/ip_proj/src/images/11.jpg';
 import nine from '/home/hardik/ip_proj/src/images/13.jpg';
+
 
 
 class SLICK extends React.Component {
