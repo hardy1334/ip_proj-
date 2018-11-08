@@ -42,7 +42,7 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.11.1",
     "install": "^0.11.0",
-    "npm": "^6.0.0",
+    "npm": "^4.6.1",
     "stylelint": "^8.0.0",
     "stylelint-config-pagarme-react": "^1.2.0"
   }
