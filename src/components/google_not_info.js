@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import matrix from '/home/hardik/ip_proj/src/images/explore13.jpg';
+import matrix from '../images/explore13.jpg';
 import MATRIX_INFO from './google';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class MATRIX extends React.Component{
     constructor(props){

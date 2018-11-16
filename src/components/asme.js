@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import asme from '/home/hardik/ip_proj/src/images/experttalk8.jpg';
+import asme from '../images/experttalk8.jpg';
 import ASME_INFO  from './asme_info';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class ASME extends React.Component{
     constructor(props){

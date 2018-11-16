@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import first_card from '/home/hardik/ip_proj/src/images/experttalk.jpg';
+import first_card from '../images/experttalk.jpg';
 import C2S2_Firstinfo from './c2s2_info';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class C2s2 extends React.Component{
       constructor(props){

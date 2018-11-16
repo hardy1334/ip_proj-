@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import sae from '/home/hardik/ip_proj/src/images/experttalk7.jpg';
+import sae from '../images/experttalk7.jpg';
 import SAE_INFO from './ieee_info'; 
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class SAE extends React.Component{
     constructor(props){

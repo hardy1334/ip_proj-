@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import BITS from '/home/hardik/ip_proj/src/images/experttalk2.jpg';
+import BITS from '../images/experttalk2.jpg';
 import BITS_INFO from './bits_info';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class BITS_N_BYTES extends React.Component{
     constructor(props){

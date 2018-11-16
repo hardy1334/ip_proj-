@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import Mech from '/home/hardik/ip_proj/src/images/explore5.jpg';
+import Mech from '../images/explore5.jpg';
 import MECHESTIN_INFO from './mechestin_info';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class MECHESTIN extends React.Component{
     constructor(props){

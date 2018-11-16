@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import mun from '/home/hardik/ip_proj/src/images/explore13.jpg';
+import mun from '../images/explore13.jpg';
 import MUN_INFO from './mun_info';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class MUN extends React.Component{
 constructor(props){

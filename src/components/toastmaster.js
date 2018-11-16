@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import toast from '/home/hardik/ip_proj/src/images/experttalk4.jpg';
+import toast from '../images/experttalk4.jpg';
 import TOASTMASTER_INFO from './toastmaster_info';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class TOASTMASTER extends React.Component{
     constructor(props){

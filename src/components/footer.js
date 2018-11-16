@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
-import imgnav from '/home/hardik/ip_proj/src/images/4372-128_128.jpeg';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import imgnav from '../images/4372-128_128.jpeg';
+import '../style/navsty.css';
 
 class FOOTER extends React.Component{
 

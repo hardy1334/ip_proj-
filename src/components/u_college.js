@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import udacity from '/home/hardik/ip_proj/src/images/explore23.jpg'; 
+import udacity from '../images/explore23.jpg'; 
 import UDACITY_INFO from './u_college_info';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class UDACITY extends React.Component{
     constructor(props){

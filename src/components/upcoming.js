@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
-import upcom1 from '/home/hardik/ip_proj/src/images/up1.jpg'
-import icon from '/home/hardik/ip_proj/src/images/Maps-Location-icon.png';
+import upcom1 from '../images/up1.jpg'
+import icon from '../images/Maps-Location-icon.png';
 import MapContainer from './map_container';
 import {GoogleApiWrapper} from 'google-maps-react';
 

@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import ceed from '/home/hardik/ip_proj/src/images/explore20.jpg';
+import ceed from '../images/explore20.jpg';
 import CEED_INFO from './ceed_info';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 class CEED extends React.Component{
     constructor(props){
         super(props);

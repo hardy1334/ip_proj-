@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import csi from '/home/hardik/ip_proj/src/images/experttalk9.jpg';
+import csi from '../images/experttalk9.jpg';
 import CSI_INFO from './csi_info'; 
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 
 class CSI extends React.Component{

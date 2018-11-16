@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import ieee from '/home/hardik/ip_proj/src/images/experttalk4.jpg';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import ieee from '../images/experttalk4.jpg';
+import '../style/navsty.css';
 
 class IEEE extends React.Component{
     constructor(props){

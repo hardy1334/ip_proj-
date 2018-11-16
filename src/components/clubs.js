@@ -12,14 +12,14 @@ import MUN from './mun';
 import CURIN from './curin';
 import CEED from './ceed';
 import FOOTER from './footer';
-import '/home/hardik/ip_proj/src/style/navsty.css';
-import ico from '/home/hardik/ip_proj/src/images/4372-128_128.jpeg';
+import '../style/navsty.css';
+import ico from '../images/4372-128_128.jpeg';
 import ThemedExample from './chatbot';
 import ThemedExample2, { ThemedExample3 }  from './chatbot1';
 import ThemedExample4 from './charbot2';
 import { ThemeProvider } from 'styled-components';
 import ChatBot from 'react-simple-chatbot';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class Clubs extends React.Component{
    constructor(props){

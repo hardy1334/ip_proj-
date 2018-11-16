@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import acm from '/home/hardik/ip_proj/src/images/experttalk6.jpg';
+import acm from '../images/experttalk6.jpg';
 import ACM_INFO from './acm_info'; 
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class ACM extends React.Component{
     constructor(props){

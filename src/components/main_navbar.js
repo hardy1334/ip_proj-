@@ -1,13 +1,13 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
-import one from '/home/hardik/ip_proj/src/images/one.png';
+import one from '../images/one.png';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
 import FirstCarousel from './carousel_home';
-import '/home/hardik/ip_proj/src/style/navsty.css';
-import imgnav from '/home/hardik/ip_proj/src/images/4372-128_128.jpeg';
+import '../style/navsty.css';
+import imgnav from '../images/4372-128_128.jpeg';
 import TOGGLEBUTTON  from './togglebutt';
 import Helmet from 'react-helmet';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 //components
 
 class NavbarMain extends React.Component{

@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
-import icon from '/home/hardik/ip_proj/src/images/Maps-Location-icon.png';
-//import quick from '/home/hardik/ip_proj/src/images/even_quick_21.jpg';
-import ping from '/home/hardik/ip_proj/src/images/khel.jpg'
+import icon from '../images/Maps-Location-icon.png';
+//import quick from '../images/even_quick_21.jpg';
+import ping from '../images/khel.jpg'
 
 const THIRD =(props)=>{
 

@@ -8,8 +8,8 @@ import UPCOMING from './upcoming'
 import UPCOMING2 from './upcoming2';
 //import LeftArrow from './left';
 //import RightArrow from './right';
-import icon1 from '/home/hardik/ip_proj/src/images/118740.png';
-import icon2 from '/home/hardik/ip_proj/src/images/arrow-left-01-128.png';
+import icon1 from '../images/118740.png';
+import icon2 from '../images/arrow-left-01-128.png';
 //import ThemedExample from './chatbot';
 import SLICK from './past_slick';
 import ThemedExample from './chatbot';
@@ -17,7 +17,7 @@ import ThemedExample2, { ThemedExample3 }  from './chatbot1';
 import ThemedExample4 from './charbot2';
 import { ThemeProvider } from 'styled-components';
 import ChatBot from 'react-simple-chatbot';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 
 

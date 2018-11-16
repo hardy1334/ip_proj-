@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import iste from '/home/hardik/ip_proj/src/images/experttalk8.jpg';
+import iste from '../images/experttalk8.jpg';
 //import ISTE_INFO from './iste_info'; 
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class ISTE extends React.Component{
 

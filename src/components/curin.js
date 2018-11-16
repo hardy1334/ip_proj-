@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import ReactDOM, {render} from 'react-dom';
 import {BrowserRouter,Route,NavLink} from 'react-router-dom';
-import curin from '/home/hardik/ip_proj/src/images/explore22.jpg';
+import curin from '../images/explore22.jpg';
 import CURIN_INFO from './curin_info';
-import '/home/hardik/ip_proj/src/style/navsty.css';
+import '../style/navsty.css';
 
 class CURIN extends React.Component{
     constructor(props){
