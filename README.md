@@ -10,4 +10,4 @@ Now you have all the dependencies installed required here.
 
 <i>To start the server just type:</i>
 
-<code>npm start</code>
+<b>3. </b><code>npm start</code>
