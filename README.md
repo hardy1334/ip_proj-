@@ -5,6 +5,7 @@ This website helps people who are new over Chitkara University to get a good ide
 * Javascript - React js
 * HTML5
 * CSS3
+* Google Map Api
 
 **Setup**
 
