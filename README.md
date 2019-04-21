@@ -1,4 +1,4 @@
-This website is part of my college project which helps people who are new over to get a good idea about what all stuff is there in college and what kind of events happen ,and also of the clubs and socities of college.
+This website helps people who are new over Chitkara University to get a good idea about what all stuff is there in the university and what kind of events happen ,and also of the clubs and socities of college.It also contains a basic chatbot with which you can communicate about chitkara University.
 
 **Setup**
 
