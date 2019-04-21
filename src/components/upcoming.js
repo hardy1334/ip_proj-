@@ -15,14 +15,14 @@ class UPCOMING extends React.Component{
                isHidden: true,
            }
        }
-                
+
       /* onshow_maps=()=>{
         console.log("carry this ");
           this.setState({
               isMapActive:true,
-             
+
           });
-          
+
        }*/
           ontoggle=()=>{
            this.setState({ isMapActive:!this.state.isMapActive})
@@ -41,7 +41,7 @@ class UPCOMING extends React.Component{
        }
 
     render(){
-       
+
          const styl1={
              width:500,
              height:200,
@@ -51,12 +51,12 @@ class UPCOMING extends React.Component{
             width:500,
             marginTop: 20,
             marginLeft: 20,
-            backgroundColor:'#E8E8E8'            
+            backgroundColor:'#E8E8E8'
         }
         const styl3={
             float:'left',
-            marginTop: -30,
-            
+            marginTop: -8,
+
         }
         const styl4={
             color:'#909090',
@@ -90,7 +90,7 @@ class UPCOMING extends React.Component{
                <h5 className="card-title">Details</h5>
                <p className="card-text text-muted" style={{fontSize:15}}>Chitkara University announces the first edition of Chitkara University National Excellence Award – 2018. The excellence award is an endeavour to acknowledge and reward the exceptional work and contribution of trailblazers from different spheres towards education and society.<br/>So be part of this amazing event.
                </p>
-               
+
              </div>
            </div>
 
@@ -101,18 +101,18 @@ class UPCOMING extends React.Component{
                <p className="card-text text-muted" style={{fontSize:13}}>Chitkara University,Chandigarh-Patiala Highway,Punjab
                </p>
                <button onClick={this.comb_func}    style={{float:'right',marginTop:-50}}><small>{this.state.isHidden?'Show Map':'Hide Map'}</small> </button>
-              
+
               </div>
            </div>
            {!this.state.isHidden ?
            <div className="card"  style={{width:500,height:200,marginLeft:21,backgroundColor:"#E8E8E8",marginTop:25}} >
            {
-           this.state.isMapActive &&  <MapContainer google={this.props.google}/> 
-           }    
+           this.state.isMapActive &&  <MapContainer google={this.props.google}/>
+           }
            </div>:null}
            </div>
-          
-         
+
+
 
         );
     }
